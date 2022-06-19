@@ -5,7 +5,7 @@ module.exports = {
       {
         source: '/',
         destination: '/profile',
-        permanent: true,
+        permanent: false,
       },
     ]
   },
