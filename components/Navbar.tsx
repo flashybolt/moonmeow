@@ -14,12 +14,6 @@ export const Navbar = () => {
       </div>
         <div className="self-center flex text-md font-light font-sans tracking-wide">
           <div className="text-gray-700 w-28 text-center flex items-center justify-center">
-            Adopt
-          </div>
-          <div className="text-gray-700 w-28 text-center flex items-center justify-center">
-            Nurture
-          </div>
-          <div className="text-gray-700 w-28 text-center flex items-center justify-center">
             About
           </div>
           <div className="text-gray-700 w-28 text-center flex items-center justify-center">
