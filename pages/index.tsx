@@ -5,7 +5,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { db, app } from '../firebase/clientApp.ts'
+import { db, app } from '../firebase/clientApp'
 
 const Home: NextPage = () => {
   const auth = getAuth(app);
