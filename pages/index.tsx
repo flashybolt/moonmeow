@@ -10,7 +10,7 @@ import { db, app } from '../firebase/clientApp'
 const Home: NextPage = () => {
   const auth = getAuth(app);
 
-  function addUser(auth: Auth, email: string, password: string) {
+  function addUser(auth, email, password) {
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         const user = userCredential.user;
