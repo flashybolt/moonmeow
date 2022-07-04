@@ -1,14 +1,13 @@
-import { MoonIcon, SunIcon } from '@heroicons/react/outline'
-import Image from 'next/image'
+import { MoonIcon } from '@heroicons/react/outline'
 
 export const Navbar = () => {
   return (
-    <nav className="h-20 w-screen bg-white flex items-center justify-between px-8 py-2 shadow-sm">
+    <nav className="h-20 w-full flex items-center justify-between px-8 py-2 border-b border-slate-200">
       <div className="flex items-center justify-center">
         <div className="ml-2 text-3xl text-gray-700 font-thin font-sans flex">
           <a className="">moon</a>
           <a className="text-amber-700">me</a>
-          <MoonIcon className="h-6 w-6 text-orange-900 font-thin mt-2"/>
+          <MoonIcon className="h-6 w-6 text-amber-700 font-thin mt-2"/>
           <a className="text-amber-700">w</a>
         </div>
       </div>
