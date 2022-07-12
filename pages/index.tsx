@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
-import { Test } from "../components/Test";
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
