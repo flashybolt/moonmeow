@@ -228,7 +228,7 @@ export const Navbar = () => {
                     <input
                       type="submit"
                       value="Login"
-                      className="h-12 w-32 mt-2 flex flex-col items-center rounded-xl bg-gradient-to-br from-stone-900 to-stone-800 text-white cursor-pointer"
+                      className="h-12 w-32 mt-2 flex flex-col items-center justify-center rounded-xl bg-gradient-to-br from-stone-900 to-stone-800 text-white cursor-pointer"
                     />
                     <div className="text-sm text-gray-700">
                       Don&apos;t have an account?&nbsp;
@@ -303,7 +303,7 @@ export const Navbar = () => {
                       onClick={closeSignupModal}
                       type="submit"
                       value="Sign Up"
-                      className="h-12 w-32 mt-2 flex flex-col items-center rounded-xl bg-gradient-to-br from-stone-900 to-stone-800 text-white cursor-pointer"
+                      className="h-12 w-32 mt-2 flex flex-col items-center justify-center rounded-xl bg-gradient-to-br from-stone-900 to-stone-800 text-white cursor-pointer"
                     />
                     <div className="text-sm text-gray-700">
                       Already have an account?{" "}
