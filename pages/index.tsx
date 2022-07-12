@@ -34,7 +34,7 @@ const Home: NextPage = () => {
               Find your next furry friend.
             </div>
             <div className="text-gray-700 text-xl ml-12 mt-4 w-3/5">
-              It's easier to find a pet with moonmeow, now more than ever!
+              It&apos;s easier to find a pet with moonmeow, now more than ever!
             </div>
           </div>
         </div>

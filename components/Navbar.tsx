@@ -231,7 +231,7 @@ export const Navbar = () => {
                       className="h-12 w-32 mt-2 flex flex-col items-center rounded-xl bg-gradient-to-br from-stone-900 to-stone-800 text-white cursor-pointer"
                     />
                     <div className="text-sm text-gray-700">
-                      Don't have an account?{" "}
+                      Don&apos;t have an account?
                       <a
                         onClick={() => {
                           closeLoginModal();
