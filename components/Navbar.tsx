@@ -310,7 +310,7 @@ export const Navbar = () => {
                       <a
                         onClick={() => {
                           closeSignupModal();
-                          setTimeout(openLoginModal(), 600);
+                          setTimeout(openLoginModal, 600);
                         }}
                         className="underline font-bold decoration-amber-600 decoration-2 cursor-pointer"
                       >
